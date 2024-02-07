@@ -9,4 +9,5 @@
 -   MAMP php v8.2.0
 
 ## structure
-{DB(MySQL)} <->  {Model(Laravel)} <-> {Controller(laravel)} --variable async[json] (Inertia)--> {View(Vue.js)} --> {Routing(Laravel)} <-> {Controller(laravel)} 
+
+[monchi-crm](https://github.com/TRkizaki/monchi-crm/assets/58180720/d50d9bd0-211c-435f-9611-ee1af53a588a)
