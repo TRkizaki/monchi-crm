@@ -16,7 +16,7 @@ const newContent = ref('')
 <div class="mb-8"></div>
     <input type="text" name="newTitle" v-model="newTitle"><br>
     <input type="text" name="newContent" v-model="newContent"><br>
-    <Link as="button" :href="route('inertia-store')" 
+    <Link as="button" method="post" :href="route('inertia.store')" 
     :data="{
         title: newTitle, 
         content: newContent
