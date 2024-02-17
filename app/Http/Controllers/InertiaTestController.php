@@ -15,7 +15,7 @@ class InertiaTestController extends Controller
 
     public function create()
     {
-        return inertia::render('Inertia/Create');
+        return Inertia::render('Inertia/Create');
     }
 
     public function show($id)
