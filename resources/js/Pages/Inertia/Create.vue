@@ -1,6 +1,6 @@
 <script setup>
-import { reactive } from 'vue'
-import { Inertia } from '@inertiajs/inertia'
+import { reactive } from 'vue';
+import { Inertia } from '@inertiajs/inertia-vue3';
 
 defineProps({
     errors: Object
