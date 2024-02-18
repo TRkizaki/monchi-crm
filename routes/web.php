@@ -25,6 +25,7 @@ Route::get('/inertia/index',[InertiaTestController::class,'index'])->name('inert
 Route::get('/inertia/create',[InertiaTestController::class,'create'])->name('inertia.create');
 Route::post('/inertia',[InertiaTestController::class,'store'])->name('inertia.store');
 Route::get('/inertia/show/{id}',[InertiaTestController::class,'show'])->name('inertia.show');
+Route::delete('/inertia/{id}', [InertiaTestController::class, 'delete'])->name('inertia.delete');
 
 
 Route::get('/', function () {
@@ -45,7 +46,5 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
-
-Route::delete('/inertia/{id}', [InertiaTestController::class, 'delete'])->name('inertia.delete');
 
 require __DIR__.'/auth.php';
