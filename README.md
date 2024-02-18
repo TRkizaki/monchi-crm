@@ -13,3 +13,10 @@
 ## architecture
 
 ![monchi-crm](https://github.com/TRkizaki/monchi-crm/assets/58180720/d50d9bd0-211c-435f-9611-ee1af53a588a)
+
+## Development of a simple server
+- Server Side
+`php artisan serve`
+
+- Front Side
+`npm run dev`
