@@ -15,10 +15,10 @@
 ![monchi-crm](https://github.com/TRkizaki/monchi-crm/assets/58180720/d50d9bd0-211c-435f-9611-ee1af53a588a)
 
 ## Install
-1. 'composer' install
-2. 'npm install && npm run dev'
-3. edit '.env' to db, sanctum and session etc
-4. 'php artisan key:generate'
+1. `composer` install
+2. `npm install && npm run dev`
+3. edit `.env` to db, sanctum and session etc
+4. `php artisan key:generate`
 
 ## Development of a simple server
 - Server Side
