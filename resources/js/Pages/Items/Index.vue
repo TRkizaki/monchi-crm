@@ -44,10 +44,13 @@ defineProps({
                     </thead>
                     <tbody>
                       <tr v-for="item in items" :key="item.id">
-                        <td>{{ item.id }}</td>
-                        <td>{{ item.name }}</td>
-                        <td>{{ item.price }}</td>
-                        <td>{{ item.is_selling }}</td>
+                        <td class="border-b-2 border-grey-200 px-4 py-3">{{ item.id }}</td>
+                        <td class="border-b-2 border-grey-200 px-4 py-3">{{ item.name }}</td>
+                        <td class="border-b-2 border-grey-200 px-4 py-3">{{ item.price }}</td>
+                        <td class="border-b-2 border-grey-200 px-4 py-3">
+                          <span v-if="item.is_selling === 1">販売中</span>
+                          <span v-if="item.is_selling === 0">停止中</span>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
